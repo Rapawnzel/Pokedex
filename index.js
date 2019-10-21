@@ -63,7 +63,7 @@ function getPokemon(pokemonObject){
         if (request.status >= 200 && request.status < 400) {
             //img:
             let img = parsedPokemonData[`sprites`][`front_default`];
-            document.getElementById("img").innerHTML = `<figure><img src='${img}' class= "align-middle"></figure>`;
+            document.getElementById("imgPoke").innerHTML = `<img src='${img}' class= "align-middle">`;
             //height:
             document.getElementById("height").innerHTML = `${parsedPokemonData[`height`]/10} m`;
             //weight:
@@ -76,7 +76,7 @@ function getPokemon(pokemonObject){
                type = parsedPokemonData[`types`][types][`type`]['name'];
                 document.getElementById("pokeType").innerHTML += ` ${type}`;
             }
-
+            printTypes(type);
             let ability = "";
             for (let abilities in parsedPokemonData[`abilities`]){
                  ability = parsedPokemonData[`abilities`][abilities][`ability`]['name'];
@@ -93,7 +93,11 @@ function getPokemon(pokemonObject){
 
 
 
-
+function printTypes(pokeTypes){
+    for (let type in pokeTypes){
+        
+    }
+}
 
 
 /*

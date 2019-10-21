@@ -66,6 +66,16 @@ input {
     font-weight: 900;
 }
 
+#imgPoke{
+    position: relative;
+    width: 300px;
+    z-index: 1051;
+}
+
+.modal-header {
+    border-bottom: 0 none;
+}
+
 /*
 p{
     margin: 0px;
