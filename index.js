@@ -68,12 +68,18 @@ function getPokemon(pokemonObject){
             document.getElementById("height").innerHTML = `${parsedPokemonData[`height`]/10} m`;
             //weight:
             document.getElementById("weight").innerHTML = `${parsedPokemonData[`weight`]/10} kg`;
+            //base experience:
+            document.getElementById("baseExp").innerHTML = `${parsedPokemonData[`base_experience`]} `;
             //types:
             let type = "";
             for (let types in parsedPokemonData[`types`]){
                type = parsedPokemonData[`types`][types][`type`]['name'];
                 document.getElementById("pokeType").innerHTML += ` ${type}`;
             }
+            for (let abilities in parsedPokemonData[`types`]){
+                type = parsedPokemonData[`types`][types][`type`]['name'];
+                 document.getElementById("pokeType").innerHTML += ` ${type}`;
+             }
         }
         else {
             console.log('error');
