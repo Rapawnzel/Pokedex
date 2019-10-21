@@ -23,7 +23,7 @@
 
 
 <h4> Copyright & license</h4>
-Este proyecto tiene una licencia estándar.
+Este proyecto tiene una licencia estándar. <br>
 
 
 LIVE DEMO: https://rapawnzel.github.io/Pokedex/index.html
