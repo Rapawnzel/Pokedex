@@ -1,5 +1,5 @@
+ <img src="img/logo.png" id="logo">
 
-<h2>Pokédex</h2>
 <p>Pokédex es una aplicación web que proporciona datos de pokémons bajo demanda.</p>
 <br>
 
