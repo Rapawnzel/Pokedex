@@ -1,9 +1,27 @@
+
 <h2>Pokédex</h2>
+https://rapawnzel.github.io/Pokedex/index.html
 <p>Pokédex es una aplicación web que proporciona datos de pokémons bajo demanda.</p>
 <br>
-<h4> Features </h4>
-- Pide el nombre del pokémon como input
-- Al hacer click en "Catch it", se abre un modal que muestra los datos del Pokémon introducido.
+
+<h4> Cómo funciona</h4>
+- Hacemos una llamada HTTP a la API de pokémon para cargar los datos del modal<br>
+- Intriducimos los datos obtenidos de la API en el modal
+
 <h4> Stack </h4>
-- AJAX
-- Boostrap
+- AJAX<br>
+- Bootstrap<br>
+
+
+<h4> Guía de usuario</h4>
+- Pide el nombre del pokémon como input<br>
+- Al hacer click en "Catch it", se abre un modal que muestra los datos del Pokémon introducido.<br>
+
+<h4> Future improvements</h4>
+- Control del contenido introducido<br>
+- Formatear los datos obtenidos de la API<br>
+- Incluír datos específicos de cada pokemon y mostrarlos de forma gráfica<br>
+
+
+<h4> Copyright & license</h4>
+No
