@@ -1,6 +1,6 @@
 
 <h2>Pokédex</h2>
-https://rapawnzel.github.io/Pokedex/index.html
+LIVE DEMO: https://rapawnzel.github.io/Pokedex/index.html
 <p>Pokédex es una aplicación web que proporciona datos de pokémons bajo demanda.</p>
 <br>
 
@@ -24,4 +24,4 @@ https://rapawnzel.github.io/Pokedex/index.html
 
 
 <h4> Copyright & license</h4>
-No
+Este proyecto tiene una licencia estándar.
