@@ -76,9 +76,11 @@ function getPokemon(pokemonObject){
                type = parsedPokemonData[`types`][types][`type`]['name'];
                 document.getElementById("pokeType").innerHTML += ` ${type}`;
             }
-            for (let abilities in parsedPokemonData[`types`]){
-                type = parsedPokemonData[`types`][types][`type`]['name'];
-                 document.getElementById("pokeType").innerHTML += ` ${type}`;
+
+            let ability = "";
+            for (let abilities in parsedPokemonData[`abilities`]){
+                 ability = parsedPokemonData[`abilities`][abilities][`ability`]['name'];
+                 document.getElementById("abilities").innerHTML += ` ${ability}`;
              }
         }
         else {
