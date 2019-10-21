@@ -1,0 +1,108 @@
+body{
+    font-family: 'Source Code Pro', monospace;
+    font-weight:100; 
+    text-align:center; 
+    background-image: url("img/background.png");
+    letter-spacing: 2px;
+}
+
+#content {
+    font-size: 40px; 
+    line-height: 40px; 
+    margin-top: 45%; 
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+}
+
+#logo{
+    margin: auto;
+    max-width: 400px;
+}
+
+::placeholder {
+    font-family: 'Source Code Pro', monospace;
+    font-weight:100; 
+    text-align:center; 
+    font-size: 16px; 
+    text-transform: uppercase; 
+    letter-spacing: 2px;
+    color: lightgray;
+    letter-spacing: 2px;
+}
+
+
+#buttonTrigger{
+    margin: 30px;
+    margin:auto; 
+    margin-top:50px; 
+    font-size: 20px; 
+    display: block;
+    opacity: 0.75;
+    border-radius: 0;
+    padding: 10px 20px 10px 20px;
+    letter-spacing: 2px;
+    
+}
+
+#poke{
+    margin:auto; 
+    margin-top:30px; 
+    border: 1px solid gray; 
+    height: 50px; 
+    width: 400px; 
+    font-size: 20px; 
+    display: block;
+    opacity: 0.75;
+    letter-spacing: 2px;
+    
+}
+
+input { 
+    text-align: center; 
+    letter-spacing: 2px;
+}
+
+.propertyName{
+    font-weight: 900;
+}
+
+/*
+p{
+    margin: 0px;
+    font-size: 16px; 
+    font-weight:600; 
+    line-height: 50px; 
+    margin-top: 40px;
+}
+
+img{
+    margin-top: 30px; 
+    max-width: 200px;
+    display: inline;
+}
+
+
+
+#result{
+    margin:auto; 
+    margin-top:30px; 
+    border: 0px; 
+    font-size: 50px;
+    display: block
+}
+
+#scoreboard{
+    position: absolute;
+    width: 100%;
+    top: 650px;
+    padding: 0 30% 0 30%;
+}
+
+.score{
+    display: inline-block;
+    text-align: center;
+    margin: 10px;
+    line-height: 10px;
+}
+
+  */
