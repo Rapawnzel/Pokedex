@@ -1,4 +1,4 @@
- <img src="img/logo.png" id="logo">
+ <img src="img/logo.png" id="logo" style="max-height:200px">
 
 <p>Pokédex es una aplicación web que proporciona datos de pokémons bajo demanda.</p>
 <br>
